@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.discover-text {
+    color: #3011bc;
+}
+
+.mail-tabs {
+    color: #607080;
+}
+
+.h1-main {
+    padding: 5rem 3rem 0rem 8rem;
+}
+
+.nav-item .nav-link:active i {
+    color: orange;
+}
+body {
+    overflow-x: hidden;
+}
+
+#nav-tab {
+    color: orange !important;
+}
+
+.bg-gradient{
+    background: linear-gradient(90deg, #3011bc, #7e11bc)!important;
+   
+}
+
+.mini-nav{
+    color: rgba(0, 0, 0, 0.322);
+}
+
+
+
+.search-button {
+    background-color: orange;
+    color: white;
+}
+.search-button:hover {
+    background-color:  darkorange;
+    color: white;
+}
+
+.search-button2 {
+    background-color: orange;
+    color: white;
+}
+
+.search-button2:hover {
+ background-color: darkorange !important;
+ color: white;
+}
+
+.search-button3 {
+ background-color: orange;
+ color: white;
+}
+
+.search-button3:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.cards-wrapper {
+    display: flex !important;
+}
+
+.bg-secondary {
+    background-color: orange !important;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.conta {
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(8, 1fr);
+    gap: 0.25rem;
+
+}
+
+.kisim1 {
+    grid-column: 1/4;
+    padding-left: 9rem;
+
+}
+
+.kisim2 {
+    grid-column: 4/6;
+}
+
+.kisim3 {
+    grid-column: 6/8;
+
+}
+
+.kisim4 {
+    grid-column: 2/4;
+}
+
+.kisim5 {
+    grid-column: 4/6;
+}
+
+.kisim6 {
+    grid-row: 2/4;
+    grid-column: 6/8;
+    display: grid;
+}
+
+.kisim7 {
+    grid-column: 2/4;
+}
+
+.kisim8 {
+    grid-column: 4/6;
+}
+
+.kisimsag {
+    grid-column: 8;
+    grid-row: 1/5;
+}
+.resim-paragrafi {
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+.resim-paragrafi-2 {
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 2.1rem;
+    color: white;
+    font-size: small;
+}
+
+.resim-image {
+    position: absolute;
+    margin-top: 22.2rem;
+    margin-left: 1rem;
+
+}
+
+.bg-orange-gradient {
+    background: rgb(246,107,0);
+    background: linear-gradient(90deg, rgba(246,107,0,1) 21%, rgba(252,148,69,1) 81%);
+}
+
+
+.bg-holder {
+    position: absolute;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.text-primary{
+    color: darkblue !important;
+}
+
+.bg-primary{
+    background-color: #3011bc !important;
+}
+
+h4{
+    color: darkblue !important;
+}
+
+.text-primary{
+    color: #3011bc !important;
+}
+
+.btn-outline-primary{
+    color: #3011bc;
+    background: #fff;
+    border-color: #3011bc;
+}
+
+.btn-outline-primary:hover{
+    background: #3011bc;
+}
+
+.btn-outline-primary2{
+    color: #ff4800;
+    background: #fff;
+    border-color: #ff2a00;
+}
+
+.btn-outline-primary2:hover{
+    background: #ff8800;
+    color: #fff;
+}
+
+.bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+  
+  .bg-holder.bg-right {
+    left: auto;
+    right: 0;
+  }
+  
+  .bg-holder.overlay:before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.25);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .bg-holder.overlay-0:before {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .bg-holder.overlay-1:before {
+    background: rgba(0, 0, 0, 0.55);
+  }
+  
+  .bg-holder.overlay-2:before {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .bg-holder .bg-video {
+    position: absolute;
+    display: block;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    min-width: 100%;
+  }
+  
+  .bg-holder .bg-youtube {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .box-2{
+    background: rgb(246,107,0);
+    background: linear-gradient(90deg, rgba(246,107,0,1) 21%, rgba(252,148,69,1) 81%);
+  }
+
+  .bg-holder1{
+    background-image: url(assets/gallery/cta-bg.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  
